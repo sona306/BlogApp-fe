@@ -69,7 +69,7 @@ const Signup = () => {
                         <input type="password" className="form-control" name='cnfpass' value={input.cnfpass} onChange={inputHandler}/>
                         </div>                      
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"><br></br><br></br>
-                            <a href="" className="btn btn-primary">Back To Login</a> 
+                            <a href="/" className="btn btn-primary">Back To Login</a> 
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"><br></br><br></br>
                             <button className="btn btn-success" onClick={readValue}>Register</button>
