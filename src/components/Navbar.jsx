@@ -24,7 +24,7 @@ const Navbar = () => {
           <a class="nav-link active" aria-current="page" href="/create">CreatePost</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/viewall">Viewall</a>
+          <a class="nav-link" href="/viewall">ViewAll</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/viewmypost">ViewMyPost</a>
