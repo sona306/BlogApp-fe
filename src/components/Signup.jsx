@@ -45,28 +45,29 @@ const Signup = () => {
     <div>
         <div className="container">
             <div className="row">
+            <h2><center>Register New Account</center></h2>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"><br></br>
                 <div className="container">
                     <div className="row">
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"><br></br>
                             <label htmlFor="" className="form-label">Name</label>
-                            <input type="text" className="form-control" name='name' value={input.name} onChange={inputHandler}/>
+                            <input type="text" className="form-control" name='name' placeholder='Enter your full name' value={input.name} onChange={inputHandler}/>
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"><br></br>
                         <label htmlFor="" className="form-label">Phone No</label>
-                        <input type="text" className="form-control" name='phone' value={input.phone} onChange={inputHandler}/>
+                        <input type="text" className="form-control" name='phone' placeholder='Enter your active phone number' value={input.phone} onChange={inputHandler}/>
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"><br></br>
                         <label htmlFor="" className="form-label">Email</label>
-                        <input type="text" className="form-control" name='email' value={input.email} onChange={inputHandler}/>
+                        <input type="text" className="form-control" name='email' placeholder='Enter your email id' value={input.email} onChange={inputHandler}/>
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"><br></br>
                         <label htmlFor="" className="form-label">Password</label>
-                        <input type="password" className="form-control" name='password' value={input.password} onChange={inputHandler}/>
+                        <input type="password" className="form-control" name='password' placeholder='Enter strong password' value={input.password} onChange={inputHandler}/>
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"><br></br>
                         <label htmlFor="" className="form-label">Confirm Password</label>
-                        <input type="password" className="form-control" name='cnfpass' value={input.cnfpass} onChange={inputHandler}/>
+                        <input type="password" className="form-control" name='cnfpass' placeholder='Confirm your password' value={input.cnfpass} onChange={inputHandler}/>
                         </div>                      
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"><br></br><br></br>
                             <a href="/" className="btn btn-primary">Back To Login</a> 
